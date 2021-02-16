@@ -23,7 +23,7 @@ public class APIAssignment {
             Scanner input = new Scanner(System.in);
             System.out.println("Enter a music search query: ");
             String query = input.nextLine();
-            query =query.replace(" ", "%20");
+            query = query.replace(" ", "%20");
 
             // Import Shazam API code.
             HttpRequest request = HttpRequest.newBuilder()
